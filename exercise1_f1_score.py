@@ -17,8 +17,8 @@ def exercise1(tp,fp,fn):
   print(f"f1 - score is {f1}")
 
 exercise1(tp=2, fp=3 , fn=4)
-exercise1( tp ='a', fp =3 , fn =4)
-exercise1 ( tp =2 , fp ='a', fn =4)
-exercise1 ( tp =2 , fp =3 , fn ='a')
-exercise1 ( tp =2 , fp =3 , fn =0)
-exercise1 ( tp =2.1 , fp =3 , fn =0)
+exercise1(tp ='a', fp =3 , fn =4)
+exercise1(tp =2 , fp ='a', fn =4)
+exercise1(tp =2 , fp =3 , fn ='a')
+exercise1(tp =2 , fp =3 , fn =0)
+exercise1(tp =2.1 , fp =3 , fn =0)
